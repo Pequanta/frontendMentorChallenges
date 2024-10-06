@@ -135,3 +135,21 @@ body{
     width: 80%;
     height: 90%;
 }
+
+@media (max-width: 375px){
+    p{
+        font-size: 1rem;
+    }
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-eight .image-and-description img{
+        width: 50%;
+        height: 90%;
+    }
+    .card-eight .image-and-description span{
+        font-size: 1rem;
+    }
+    
+}
